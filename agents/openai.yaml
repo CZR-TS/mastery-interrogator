@@ -1,0 +1,3 @@
+interface:
+  display_name: "Mastery Interrogator"
+  short_description: "Socratic mastery interrogation with a persistent dynamic knowledge tree"

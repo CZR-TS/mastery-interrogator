@@ -1,0 +1,19 @@
+{
+  "note": "SEED ONLY. This is a hypothesis about what matters in a software project, not a knowledge map. Every node starts as unexplored, every node can be renamed, split, merged, re-parented or deleted as the conversation reveals the truth. Never present this list to the user as the answer.",
+  "nodes": [
+    { "name": "项目解决什么问题", "description": "目标用户、真实痛点、为什么存在这个系统", "importance": 5, "blocking": true, "tags": ["scope"] },
+    { "name": "运行方式与入口", "description": "怎么跑起来，请求/命令从哪进", "importance": 4, "blocking": true, "tags": ["control-flow"] },
+    { "name": "架构与模块划分", "description": "模块边界、依赖方向、为什么这样切", "importance": 5, "blocking": true, "tags": ["architecture"] },
+    { "name": "数据流与控制流", "description": "一个请求从入口到落库经过哪些环节", "importance": 5, "blocking": true, "tags": ["control-flow"] },
+    { "name": "数据与存储", "description": "数据模型、表结构、索引、事务边界", "importance": 4, "tags": ["data"] },
+    { "name": "接口与契约", "description": "API 形态、入参校验、错误码、版本策略", "importance": 4, "tags": ["api"] },
+    { "name": "核心业务逻辑与算法", "description": "真正决定系统行为的那些函数", "importance": 5, "blocking": true, "tags": ["core"] },
+    { "name": "依赖与配置", "description": "第三方库、环境变量、配置加载与优先级", "importance": 3, "tags": ["deps"] },
+    { "name": "异常处理与边界", "description": "失败路径、重试、幂等、并发", "importance": 4, "tags": ["failure"] },
+    { "name": "测试与质量", "description": "测了什么、没测什么、为什么", "importance": 3, "tags": ["testing"] },
+    { "name": "安全与权限", "description": "认证、授权、信任边界、敏感数据", "importance": 4, "tags": ["security"] },
+    { "name": "部署与运维", "description": "构建、发布、监控、回滚", "importance": 3, "tags": ["ops"] },
+    { "name": "性能与成本", "description": "瓶颈在哪、量级多大、代价是什么", "importance": 3, "tags": ["performance"] },
+    { "name": "设计权衡与替代方案", "description": "为什么不用另一种做法", "importance": 5, "blocking": true, "tags": ["tradeoff"] }
+  ]
+}

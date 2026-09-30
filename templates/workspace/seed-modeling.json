@@ -1,0 +1,20 @@
+{
+  "note": "SEED ONLY. A coarse hypothesis for a mathematical-modelling work. It is deliberately shallow -- the deep structure (e.g. XGBoost -> Boosting -> residual/gradient -> derivative) must be created by the dialogue, node by node, only when the user's answers expose the need.",
+  "nodes": [
+    { "name": "问题重述与真实目标", "description": "题目到底要什么，评价标准是什么", "importance": 5, "blocking": true, "tags": ["problem"] },
+    { "name": "假设与简化", "description": "每条假设是什么、为什么合理、不成立会怎样", "importance": 5, "blocking": true, "tags": ["assumption"] },
+    { "name": "变量与符号定义", "description": "决策变量、参数、目标、约束各是什么", "importance": 5, "blocking": true, "tags": ["formulation"] },
+    { "name": "数据来源与预处理", "description": "缺失值、异常值、量纲、特征构造", "importance": 4, "tags": ["data"] },
+    { "name": "模型选择的理由", "description": "为什么是它而不是别的", "importance": 5, "blocking": true, "tags": ["model"] },
+    { "name": "模型原理", "description": "模型的机制，不是它的名字", "importance": 5, "blocking": true, "tags": ["model"] },
+    { "name": "公式与推导", "description": "每个公式什么意思、怎么来的、符号对应什么", "importance": 5, "blocking": true, "tags": ["math"] },
+    { "name": "参数含义与取值", "description": "每个参数控制什么、怎么定的", "importance": 4, "tags": ["math"] },
+    { "name": "求解算法", "description": "怎么解出来的，为什么能收敛", "importance": 4, "tags": ["algorithm"] },
+    { "name": "代码实现对应关系", "description": "论文的每一步对应哪段代码", "importance": 4, "tags": ["code"] },
+    { "name": "结果解释", "description": "数字背后的现实含义", "importance": 4, "tags": ["result"] },
+    { "name": "结果合理性", "description": "与常识/量级/边界是否一致", "importance": 4, "tags": ["result"] },
+    { "name": "验证与灵敏度分析", "description": "怎么证明结论稳", "importance": 5, "blocking": true, "tags": ["validation"] },
+    { "name": "局限与改进方向", "description": "哪里会失效，怎么改", "importance": 4, "tags": ["limits"] },
+    { "name": "与其他方案的对比", "description": "换掉核心假设，结论会不会变", "importance": 4, "tags": ["tradeoff"] }
+  ]
+}

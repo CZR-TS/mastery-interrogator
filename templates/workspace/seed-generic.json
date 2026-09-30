@@ -1,0 +1,11 @@
+{
+  "note": "SEED ONLY. Use when the object is a paper, a code library, a technical proposal, or anything that is not clearly a software project or a modelling work. Five buckets, nothing more -- the real tree is grown in conversation.",
+  "nodes": [
+    { "name": "它想解决什么", "description": "对象的目标、使用场景、成功标准", "importance": 5, "blocking": true },
+    { "name": "它由什么构成", "description": "主要部件/章节/模块及其职责", "importance": 5, "blocking": true },
+    { "name": "它如何运作", "description": "因果链：什么导致什么，顺序如何", "importance": 5, "blocking": true },
+    { "name": "为什么这样做", "description": "关键设计选择及其理由", "importance": 5, "blocking": true },
+    { "name": "在哪里失效", "description": "边界、前提、反例、局限", "importance": 4 },
+    { "name": "如何验证", "description": "证据从哪来，怎么证明它成立", "importance": 4 }
+  ]
+}
