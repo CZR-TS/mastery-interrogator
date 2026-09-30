@@ -8,7 +8,11 @@ seed and ask the first high-information question.
 ## Protocol
 
 1. Identify the user's concrete mastery objective: explain a project, survive a
-defense, own an agent-written codebase, understand a paper, etc.
+defense, own an agent-written codebase, understand a paper, etc. **Settle the user's
+technical baseline in the same breath** — does the user write code, and have
+they used the artifact? The baseline decides the vocabulary of every node and
+how long Phase 0 runs, so it must be known *before* `init`; see
+`references/orientation.md`.
 2. Read shallowly. For a project: README/docs, manifests, directory tree to
 roughly depth 2–3, and one representative end-to-end flow. For a paper/model:
 abstract, headings, model choice, main equations, validation, and the code entry
