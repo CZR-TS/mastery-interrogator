@@ -1,0 +1,15 @@
+# learner state never belongs in the repo
+.mastery/
+*.mastery/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# editor / os
+.DS_Store
+.idea/
+.vscode/
+*.swp
